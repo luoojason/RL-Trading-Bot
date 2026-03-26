@@ -1,14 +1,9 @@
 #SAC Trading Bot for EUR/USD Forex
 
-## 🎯 Project Overview
+## Project Overview
 
-A production-ready Soft Actor-Critic (SAC) reinforcement learning trading bot achieving **Sharpe Ratio 6.95** (average across multiple test periods) on EUR/USD forex trading.
+This (SAC) reinforcement learning trading bot on EUR/USD forex trading.
 
-### Key Achievements
-- **Sharpe Ratio**: 6.95 average (4.77-10.47 range across periods)
-- **Win Rate**: 100% of test periods profitable
-- **Risk Control**: Average max drawdown only 5.6%
-- **Validation**: Tested on real 2020-2021 data (COVID crash + recovery)
 
 ---
 
