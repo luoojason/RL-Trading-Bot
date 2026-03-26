@@ -47,7 +47,7 @@ RL_tradingbot/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 
@@ -88,23 +88,9 @@ python scripts/train_agent.py --algo sac --timesteps 300000
 python scripts/test_agent.py --algo sac
 ```
 
----
 
-## 📊 Validated Performance
 
-### Multi-Period Test Results (2020-2021)
-
-| Period | Sharpe | Return | Max DD | Status |
-|--------|--------|--------|--------|--------|
-| Q3 2020 | 6.22 | +37.7% | -4.5% | ✅ Elite |
-| Q4 2020 | 6.35 | +34.6% | -7.3% | ✅ Elite |
-| Q1 2021 | 10.47 | +69.2% | -4.1% | ✅ Outstanding |
-| Q4 2021 | 4.77 | +25.7% | -6.7% | ✅ Excellent |
-| **Average** | **6.95** | **+41.8%** | **-5.6%** | ✅ **Production Ready** |
-
----
-
-## 🔧 Configuration
+##  Configuration
 
 ### Data Ingestion (Configurable Parameters)
 
@@ -187,25 +173,7 @@ python scripts/rolling_window_retrain.py
 
 ---
 
-## 🏆 Model Performance
 
-### SAC vs PPO Comparison
-
-| Metric | SAC (Production) | PPO (Baseline) |
-|--------|------------------|----------------|
-| Sharpe Ratio | **6.95** | 2.49 |
-| Avg Return | **+42%/quarter** | +21%/quarter |
-| Max Drawdown | **-5.6%** | -16.5% |
-| Consistency | ✅ All periods > 4.0 | ⚠️ Variable |
-
-### Why SAC Won
-
-- **Maximum Entropy Optimization**: Balances reward and exploration
-- **Off-Policy Learning**: More sample-efficient
-- **Twin Critics**: Reduces overestimation bias
-- **Natural Risk Management**: Entropy bonus prevents extreme positions
-
----
 
 ## 📚 Documentation
 
@@ -237,10 +205,10 @@ python scripts/rolling_window_retrain.py
 
 ## 🚦 Production Readiness
 
-### Validation ✅
-- [x] Multi-period testing (4 periods, all profitable)
-- [x] Average Sharpe > 2.0 (achieved 6.95)
-- [x] Consistent performance (std dev 2.45)
+### Validation 
+- [x] Multi-period testing 
+- [x] Average Sharpe > 2.0 
+- [x] Consistent performance 
 - [x] Low drawdowns (< 10%)
 
 ### Next Steps for Live Deployment
@@ -258,7 +226,7 @@ MIT License - See LICENSE file
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Stable-Baselines3**: RL algorithms
 - **Gymnasium**: Environment framework
@@ -269,9 +237,9 @@ MIT License - See LICENSE file
 
 ## 📧 Contact
 
-For questions or collaboration: [Your contact info]
+For questions or collaboration: jluo6200@gmail.com
 
 ---
 
-**Status**: ✅ Production-Ready (Validated Sharpe 6.95)  
+**Status**: Work in progress
 **Last Updated**: December 2024
